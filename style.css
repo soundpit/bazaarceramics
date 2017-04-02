@@ -1,0 +1,417 @@
+/*
+
+Theme Name:   Make Child
+
+Description:  Make Child Theme
+
+Author:       Evan Scofield
+
+Author URI:   http://example.com
+
+Template:     Make
+
+Version:      1.0.0
+
+License:      GNU General Public License v2 or later
+
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+
+Text Domain:  Make
+
+*/
+
+/*
+	CONTENTS
+
+	1) General Styles
+	2) Header
+	3) Home Page
+	4) Footer
+	5) Woocommerce
+	6) SHOP
+	7) OUR TEAM
+	8) EXHIBITIONS
+	9) BLOG
+	10) CONTACT FORM
+	11) CHECKOUT
+	12) THE PRODUCTS
+	13) MISC
+	
+*/
+
+/* import the header font */
+@import url(https://fonts.googleapis.com/css?family=Lobster+Two|Amatic+SC|Dancing+Script|Poiret+One|Bad+Script|Cinzel+Decorative:400,700);
+
+/***********************/
+/* 1) GENERAL STYLES   */
+/***********************/
+
+p {
+	font-size:14px;
+}
+
+h1 {
+	font-size:24px;
+	color:#9d842a;
+	font-weight: bold;
+}
+
+h2 {
+	font-size:20px;
+	color:#9d842a;
+}
+
+h3 {
+	font-size:16px;
+	color:#9d842a;
+}
+
+h4 {
+	font-size:12px;
+color:#9d842a;
+}
+
+a {
+		
+color:#2f286d;
+}
+
+.page-titlez {
+	background:blue;
+	color:white;
+	text-align: center;
+	margin-bottom:20px;
+}
+
+.container{
+	padding-bottom:0px !important;
+}
+
+/***********************/
+/* 2) HEADER           */
+/***********************/
+
+header {
+	background:#fff;
+}
+.header-bar {
+	background:#2f286d;
+	margin-bottom:15px;
+	height:auto;
+	box-shadow: 0px 1px 3px rgba(0,0,0,0.12), 0px 1px 2px rgba(0,0,0,0.24);	
+}
+
+.header-bar .search-form{
+	padding:5px 0px 5px 0px;
+	font-size: 12px;	
+}
+
+img.custom-logo {
+	border-radius:.25em;	
+}
+
+.site-header {
+	padding-bottom:0px ;
+	margin-top:0px;
+	border-bottom:3px solid #2f286d;
+	box-shadow: 3px 3px 5px 6px #ccc;
+}
+
+.site-header-main{
+	padding:2rem 0 ;
+	padding-bottom:0px;
+}
+
+.site-title{
+	margin-bottom:10px !important;
+}
+
+.site-title a {
+	font-family: 'Cinzel Decorative', cursive;
+	font-weight:700;
+	color:#9d842a;
+	text-shadow: 1px 1px #222;
+	font-variant: small-caps;
+}
+
+#menu-menu-1{
+	margin-bottom:0px;
+}
+
+.menu-toggle{
+	background-color: #2f286d;
+}
+
+#pg-131-1{
+	margin-bottom:0px;
+}
+
+#menu-header_menu {
+	margin-bottom:11px;
+	margin-top:5px;
+}
+
+#menu-header_menu a:hover {
+	color:#9d842a !important;
+}
+
+.menu-item li:hover, .menu-item a:hover{
+	color:white !important;
+  background-color: #2f286d !important;
+}
+
+/***********************/
+/* 3) HOME PAGE           */
+/***********************/
+
+.entry-header {
+	margin-bottom:0px;
+}
+
+.my_hero {
+	margin: 0 auto;
+	margin-top:100px !important;
+	padding:20px;
+	width:50%;
+	background-color: rgba(255,255,255,.1);
+	text-align: center;
+}
+
+.sow-hero-buttons a {
+	background-color: forestgreen !important;
+	border-color:forestgreen !important;
+}
+
+.sow-slider-image-wrapper{
+	padding-top:0 !important;
+}
+
+.my_mission {
+	margin:0 auto;
+	width:80%;
+	padding:20px;
+}
+
+.my_mission p {
+	font-size:20px !important;
+	color:#333!important;
+}
+
+.my_mission li {
+	list-style-type: square !important;
+	font-size:20px !important;
+	border:none;
+	margin-left:30px;
+	color:#333 !important;
+}
+
+/***********************/
+/* 4) FOOTER            */
+/***********************/
+
+.site-footer {
+	background-color: #2f286d;
+	color:white;
+}
+
+footer.site-footer {
+	background-color:#2f286d;
+}
+
+#menu-sub_menu a {
+	color:#fff !important;
+	font-size:13px;
+}
+
+#menu-sub_menu a:hover {
+	color:#9d842a !important;
+	font-size:13px;
+}
+
+.footer_mailing strong,
+.footer_opening strong
+{
+	color:#9d842a !important;
+}
+
+.footer_mailing p {
+	1margin-bottom:3px !important;
+}
+
+/***********************/
+/* 5) WOOCOMMERCE      */
+/***********************/
+
+p.woocommerce-info {
+	border-top-color: #2f286d !important;
+}
+
+.woocommerce-message {
+	border-top-color:#2f286d !important;
+	margin-top:30px !important;
+}
+
+.woocommerce {
+	margin-top:30px !important;
+}
+
+.woocommerce-breadcrumb {
+	display:none;
+}
+
+.products li {
+	margin:10px;
+}
+
+.products {
+	margin-top:20px;
+}
+
+.products li a:first-child{
+	height:272px !important;
+}
+
+.products img {
+	border-radius: 3px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) !important;
+}
+
+.woocommerce span.onsale {
+	background-color: #9d842a; 
+}
+
+.woocommerce span.amount {
+	color: #333; 
+}
+
+/***********************/
+/* 6) SHOP                */
+/***********************/
+
+.widget_shopping_cart{
+	margin-top:3em;
+}
+
+select.orderby {
+	border-radius: 3px;
+	border: 1px solid #2f286d;
+	font-size: 14px;
+	padding:3px;
+}
+
+/***********************/
+/* 7) OUR TEAM            */
+/***********************/
+
+#pg-144-1{
+	margin-bottom:20px;
+}
+
+#pg-144-1 a{
+	line-height:20px;
+	background-color: forestgreen;
+	color:#fff;
+	border-radius: 3px;
+	padding:3px 5px 3px 5px;
+}
+
+#pg-144-1 a:hover{
+	box-shadow: 1px 1px 5px 5px forestgreen;
+	text-decoration: none;
+}
+
+.quote{
+	width:80%;
+	margin:0 auto;
+	font-size:16px !important;
+	font-family: serif;
+	margin-bottom:1.25em;
+}
+
+/***********************/
+/* 8) EXHIBITIONS         */
+/***********************/
+
+.exhibitions li {
+	font-size:14px !important;
+	margin-left:20px;
+}
+
+/***********************/
+/* 9) BLOG                */
+/***********************/
+
+#recent-posts-2{
+	margin-top:20px;
+}
+
+a.vcard {
+	color:#2f286d !important;
+}
+
+/***********************/
+/* 10) CONTACT FORM        */
+/***********************/
+
+.contact_address p {
+	margin-bottom:3px !important;
+}
+
+input.wpcf7-submit:hover {
+	background-color:#9d842a;
+	color:white;
+}
+
+.my_contact_form input,
+.my_contact_form textarea{
+	width:80%;
+}
+
+#wpgmza_map {
+	margin-bottom:3em;
+}
+
+input.wpcf7-submit {
+	background-color:#2f286d ;
+	width:30%;
+}
+
+/***********************/
+/* 11) CHECKOUT        */
+/***********************/
+
+.woocommerce #respond input#submit.alt, .woocommerce a.button.alt, .woocommerce button.button.alt, .woocommerce input.button.alt {
+    background-color: forestgreen;
+    color: #fff;
+}
+
+/***********************/
+/* 12) THE PRODUCTS     */
+/***********************/
+
+.the_products ul li{
+	font-size:14px;
+	margin-left:20px;
+}
+
+/***********************/
+/* 13) MISC            */
+/***********************/
+
+.type-product {
+	margin-top:2em;
+}
+
+#site-content {
+	padding-top:0px;
+}
+
+.site-info {
+	display:none;
+}
+
+
+
+
+
+
